@@ -108,6 +108,16 @@ article div{
     background-color: #555;
     padding: 1rem;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.kostyl div{
+    margin-top: 1rem;
+}
+
+.kostyl button{
+    margin: 1rem 0 0 -1px;
 }
 
 article{
@@ -205,6 +215,11 @@ input:focus, textarea:focus{
     outline: none;
 }
 
+button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
 button{
     padding: 12px;
     margin: 0px -6px 0 6px;
@@ -214,8 +229,7 @@ button{
     border-radius: 4px;
     font-size: 1.2rem;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-    
+    transition: background-color 0.3s ease;  
 }
 
 button:hover{
